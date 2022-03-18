@@ -1,0 +1,71 @@
+{
+  "id": "c080dec0-5eea-4910-bb31-0bda260c07c7",
+  "uid": "facere-quia-quaerat",
+  "type": "Home",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Integrate holistic applications",
+        "spans": []
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "paragraph",
+        "text": "Exercitation Lorem cillum occaecat ullamco commodo. Aliquip incididunt excepteur proident mollit sit eu ea cupidatat amet cupidatat. Quis esse commodo ea id consectetur quis laborum.",
+        "spans": []
+      }
+    ],
+    "linkAction": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "mobile": [
+      {
+        "type": "heading2",
+        "text": "Repurpose cross-media solutions",
+        "spans": []
+      }
+    ],
+    "mobileContent": [
+      {
+        "type": "paragraph",
+        "text": "Veniam laboris duis ad esse exercitation sunt elit.",
+        "spans": []
+      }
+    ],
+    "mobileBanner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+    },
+    "titleWeb": [
+      {
+        "type": "paragraph",
+        "text": "Veniam Lorem dolor elit laboris. Sint officia ad voluptate ex sunt mollit sint duis occaecat et aute quis fugiat. Consequat deserunt sunt quis deserunt consequat labore in duis consequat irure et veniam dolor magna amet.",
+        "spans": []
+      }
+    ],
+    "webContent": [
+      {
+        "type": "paragraph",
+        "text": "Veniam nulla esse id sunt commodo ad. Sunt elit esse enim excepteur pariatur aliqua. Incididunt ea occaecat labore adipisicing fugiat voluptate officia sunt anim est ullamco non et.",
+        "spans": []
+      }
+    ],
+    "webBanner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+    }
+  }
+}
