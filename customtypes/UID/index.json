@@ -1,0 +1,36 @@
+{
+  "id": "UID",
+  "label": "post",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": "Titulo do post",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
+      "cover": {
+        "config": {
+          "label": "Cover",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "descripton": {
+        "config": {
+          "label": "Descripton",
+          "placeholder": "Conteudo do seu post",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      }
+    }
+  }
+}

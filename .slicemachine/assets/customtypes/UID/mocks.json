@@ -1,0 +1,30 @@
+{
+  "id": "086d5e01-f4a8-4f06-b886-f30be148490e",
+  "uid": "occaecati-aut-quas",
+  "type": "UID",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Envisioneer proactive architectures",
+        "spans": []
+      }
+    ],
+    "cover": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+    },
+    "descripton": [
+      {
+        "type": "paragraph",
+        "text": "Ea officia cillum est qui qui eu commodo magna magna qui ex. Mollit incididunt pariatur veniam ea ex magna id adipisicing occaecat exercitation magna mollit sunt laborum aliquip. Officia tempor nisi ipsum officia veniam aliqua dolor amet ut id dolor tempor.",
+        "spans": []
+      }
+    ]
+  }
+}
