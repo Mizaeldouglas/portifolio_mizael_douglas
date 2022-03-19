@@ -6,6 +6,13 @@ import tumbImg from '../../../public/images/thumb.png'
 
 import { FiChevronLeft,FiChevronsLeft,FiChevronRight,FiChevronsRight } from 'react-icons/fi'
 
+import { GetStaticProps } from 'next'
+
+
+import { getPrismicClient } from '../../services/prismic'
+import Prismic from '@prismicio/client'
+import { RichText } from 'prismic-dom'
+
 
 
 
@@ -55,4 +62,24 @@ export default function Posts(){
 			</main>
 		</>
 	)
+}
+
+
+
+
+export const getStaticProps: GetStaticProps = async () => {
+	const prismic = getPrismicClient()
+
+	const response =  await prismic.query([
+		Prismic.Predicates.at('document.type','post')
+	])
+
+
+	return{
+		props:{
+
+		}
+	}
+	
+
 }
