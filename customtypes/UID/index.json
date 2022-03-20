@@ -4,7 +4,7 @@
   "repeatable": true,
   "status": true,
   "json": {
-    "Main": {
+    "post": {
       "title": {
         "config": {
           "label": "Title",
