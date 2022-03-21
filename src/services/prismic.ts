@@ -2,7 +2,7 @@ import Prismic from '@prismicio/client';
 
 export function getPrismicClient(req?: unknown){
   const prismic = Prismic.client('https://projeto-mizael.prismic.io/api/v2', {
-    req
+    req,
   })
 
   return prismic;
