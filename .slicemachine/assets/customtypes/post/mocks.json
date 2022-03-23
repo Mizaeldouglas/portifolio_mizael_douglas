@@ -1,0 +1,34 @@
+{
+  "id": "2891760d-dcee-4cbe-a8a0-0575927bcd46",
+  "uid": "ducimus-rerum-animi",
+  "type": "post",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Seize rich e-commerce",
+        "spans": []
+      }
+    ],
+    "cover": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
+    },
+    "Descripton": [
+      {
+        "type": "paragraph",
+        "text": "Ea veniam culpa exercitation velit mollit dolore incididunt sunt ea esse aliquip. Culpa nostrud in pariatur adipisicing sit ex culpa ex cupidatat ipsum nisi ipsum.",
+        "spans": []
+      }
+    ],
+    "linkProjeto": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    }
+  }
+}

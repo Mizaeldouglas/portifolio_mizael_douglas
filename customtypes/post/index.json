@@ -1,10 +1,10 @@
 {
-  "id": "UID",
+  "id": "post",
   "label": "post",
   "repeatable": true,
   "status": true,
   "json": {
-    "post": {
+    "Main": {
       "title": {
         "config": {
           "label": "Title",
@@ -22,7 +22,7 @@
         },
         "type": "Image"
       },
-      "descripton": {
+      "Descripton": {
         "config": {
           "label": "Descripton",
           "placeholder": "Conteudo do seu post",
