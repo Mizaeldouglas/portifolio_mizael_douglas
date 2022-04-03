@@ -161,15 +161,7 @@ type Post = {
 		})
 	  }
 	})
-	//console.log(posts)
 	
-
-	// const client = getPrismicClient(previewData);
-
-	// const document = await client.getByUID('post', 'linkProjeto', {
-	//   fetchLinks: 'author.author_name',
-	// })
-    // console.log(client)
 
 
 	return{
@@ -178,6 +170,6 @@ type Post = {
 		page: response.page,
 		totalPage: response.total_pages
 	  },
-	  revalidate: 60 * 30 // Atualiza a cada 30 minutos.
+	  revalidate: 60 * 2 // Atualiza a cada 30 minutos.
 	}
   }
