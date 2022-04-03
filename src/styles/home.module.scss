@@ -33,7 +33,9 @@
 		line-height: 2.25rem;
 		color: var(--white);
 	}
+	
 	button{
+		display: flex;
 		background-color: var(--blue-900);
 		border: 0;
 		padding: 1rem 1.8rem;
@@ -81,40 +83,67 @@
 }
 
 
-.nextLevelContent{
-	max-width: 1120px;
-	margin: 6rem auto;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-direction: column;
+// .nextLevelContent{
+// 	max-width: 1120px;
+// 	margin: 6rem auto;
+// 	display: flex;
+// 	align-items: flex-start;
+// 	justify-content: space-between;
+// 	flex-direction: column;
 
-	h2{
-		font-size: 2.8rem;
-		line-height: 4.5rem;
-		font-weight: 900;
-		color: var(--white);
+// 	h2{
+// 		font-size: 2.8rem;
+// 		line-height: 4.5rem;
+// 		font-weight: 900;
+// 		color: var(--white);
 
+// 	}
+// 	.alunos{
+// 		font-size: 2.8rem;
+// 		line-height: 4.5rem;
+// 		font-weight: 900;
+// 		color: var(--blue-900);
+// 	}
+// 	span{
+// 		font-size: 1rem;
+// 		line-height: 2.25rem;
+// 		color: var(--white);
+// 	}
+	
+// 	button{
+// 		background-color: var(--blue-900);
+// 		border: 0;
+// 		padding: 1rem 1.8rem;
+// 		border-radius: 6px;
+// 		color: var(--white);
+// 		font-weight: bold;
+// 	}
+// }
+.tecnologia{
+	color: var(--gray-200);
+	display: inline-block;
+	svg{
+		margin-top: 50px;
+		margin-left: 10px;
 	}
-	.alunos{
-		font-size: 2.8rem;
-		line-height: 4.5rem;
-		font-weight: 900;
-		color: var(--blue-900);
-	}
-	span{
-		font-size: 1rem;
-		line-height: 2.25rem;
-		color: var(--white);
-	}
-	button{
-		background-color: var(--blue-900);
-		border: 0;
-		padding: 1rem 1.8rem;
-		border-radius: 6px;
-		color: var(--white);
-		font-weight: bold;
-	}
+}
+.css{
+	color: var(--orange-200);
+}
+.html{
+	color: var(--blue-900);
+}
+.js{
+	color: var(--yellow-500);
+}
+.ts{
+	color: var(--blue-900);
+}
+.react{
+	color: var(--blue-900);
+}
+.reactNative{
+	color: var(--purple-500);
 }
 
 @media(max-width: 1095px){

@@ -81,7 +81,7 @@ type Post = {
 	return(
 	  <>
 	   <Head>
-		 <title>Blog | Sujeito Programador</title>
+		 <title>Portifolio | MizaelDouglas</title>
 	   </Head>
 	   <main className={styles.container}>
 		 <div className={styles.posts}>
@@ -135,22 +135,22 @@ type Post = {
   }
   
   
-  export const getStaticProps: GetStaticProps = async ({ previewData }) => {
+  export const getStaticProps: GetStaticProps = async () => {
 	const prismic = getPrismicClient();
   
 	const response = await prismic.query([
 	  Prismic.Predicates.at('document.type', 'post')
 	], {
 	  orderings: '[document.last_publication_date desc]', //Ordenar pelo mais recente
-	  fetch: ['post.title', 'post.Descripton', 'post.cover','post.linkProjeto'],
+	  fetch: ['post.title', 'post.Descripton', 'post.cover'],
 	  pageSize: 3
 	})
   
-	// console.log(JSON.stringify(response, null, 2))
+	 //console.log(JSON.stringify(response, null, 2))
   
 	const posts = response.results.map( post => {
 	  return {
-		slug: post.slugs,
+		slug: post.uid,
 		title: RichText.asText(post.data.title),
 		Descripton: post.data.Descripton.find(content => content.type === 'paragraph')?.text ?? '',
 		cover: post.data.cover.url,
@@ -161,8 +161,8 @@ type Post = {
 		})
 	  }
 	})
- 
-	console.log(posts)
+	//console.log(posts)
+	
 
 	// const client = getPrismicClient(previewData);
 

@@ -89,6 +89,14 @@
           "thumbnails": []
         },
         "type": "Image"
+      },
+      "curriculo": {
+        "config": {
+          "label": "Curriculo",
+          "placeholder": "",
+          "select": "media"
+        },
+        "type": "Link"
       }
     }
   }

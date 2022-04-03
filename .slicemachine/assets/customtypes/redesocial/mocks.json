@@ -1,0 +1,27 @@
+{
+  "id": "b988de33-bb7a-48d0-a8ac-9ccc19a0b40b",
+  "uid": "hic-aut-voluptatem",
+  "type": "redesocial",
+  "data": {
+    "linkedin": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "instagram": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    },
+    "whatsApp": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    },
+    "gitHub": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    },
+    "curriculo": {
+      "link_type": "media",
+      "url": "https://source.unsplash.com/daily"
+    }
+  }
+}

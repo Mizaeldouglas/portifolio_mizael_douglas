@@ -1,0 +1,50 @@
+{
+  "id": "redesocial",
+  "label": "redesocial",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "linkedin": {
+        "config": {
+          "label": "Linkedin",
+          "placeholder": "",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "instagram": {
+        "config": {
+          "label": "Instagram",
+          "placeholder": "",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "whatsApp": {
+        "config": {
+          "label": "Whats App",
+          "placeholder": "",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "gitHub": {
+        "config": {
+          "label": "Git Hub",
+          "placeholder": "",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "curriculo": {
+        "config": {
+          "label": "Curriculo",
+          "placeholder": "",
+          "select": "media"
+        },
+        "type": "Link"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "about",
+  "label": "about",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "Uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
+      "descripton": {
+        "config": {
+          "label": "Descripton",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      },
+      "banner": {
+        "config": {
+          "label": "Banner",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "instagram": {
+        "config": {
+          "label": "Instagram",
+          "placeholder": "URL do Instagram",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "linkedin": {
+        "config": {
+          "label": "Linkedin",
+          "placeholder": "URL do Linkedin",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "whatsApp": {
+        "config": {
+          "label": "Whats App",
+          "placeholder": "URL do WhatsApp",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "gitHub": {
+        "config": {
+          "label": "Git Hub",
+          "placeholder": "URL do gitHub",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      }
+    }
+  }
+}

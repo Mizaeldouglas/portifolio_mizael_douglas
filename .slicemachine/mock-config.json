@@ -47,6 +47,21 @@
           "blocks": 1
         }
       }
-    }
+    },
+    "about": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "descripton": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "redesocial": {}
   }
 }

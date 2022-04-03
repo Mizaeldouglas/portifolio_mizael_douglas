@@ -33,11 +33,40 @@
 				color: #fff;
 			}
 			&.active{
-				color: var(--yellow-500);
+				color: var(--blue-300);
 				font-weight: bold;
 			}
 		}
 	}
+}
+.socialMedia{
+			height: 6rem;
+			display: inline-block;
+			position: relative;
+			padding: 0.8rem 1rem;
+			line-height: 6rem;
+			transition: color 0.2s;
+			margin-left: 5rem;
+			a{
+				margin-left: 8px;
+			}
+			.instagram,.linkedin,.github,.whatsapp{
+				color: var(--gray-100);
+			}
+
+
+			.instagram:hover{
+				color: var(--pink-500);
+			}
+			.linkedin:hover{
+				color: var(--blue-300);
+			}
+			.github:hover{
+				color: var(--gray-200);
+			}
+			.whatsapp:hover{
+				color: var(--grey-200);
+			}
 }
 
 .readyButton{
@@ -76,6 +105,33 @@
 		}
 		.readyButton{
 			display: none;
+		}
+	}
+		.socialMedia{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -125px;
+		}
+}
+@media(max-width: 470px){
+	.socialMedia{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -120px;
+	}
+}
+
+@media(max-width: 333px){
+	.headerContainer{
+		nav{
+			margin-left: 5rem;
+			height: 6rem;
+			a{
+				margin-left: 5px;
+		
+			}
 		}
 	}
 }

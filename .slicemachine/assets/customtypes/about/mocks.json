@@ -1,0 +1,46 @@
+{
+  "id": "79574466-7d3a-4f2e-ad70-42aa4baf2eea",
+  "uid": "ut-numquam-sit",
+  "type": "about",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Integrate best-of-breed functionalities",
+        "spans": []
+      }
+    ],
+    "descripton": [
+      {
+        "type": "paragraph",
+        "text": "Ad consequat laborum Lorem duis tempor id. Proident aute laboris amet nulla fugiat est ex et dolore mollit consequat dolor magna cillum.",
+        "spans": []
+      }
+    ],
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+    },
+    "instagram": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "linkedin": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    },
+    "whatsApp": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    },
+    "gitHub": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    }
+  }
+}

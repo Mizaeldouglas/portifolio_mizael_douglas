@@ -5,11 +5,12 @@ import styles from '../styles/home.module.scss'
 
 import Image from 'next/image'
 import TechsImage from '../../public/images/techs.svg'
+import { FaReact,FaHtml5,FaCss3Alt,FaJs, } from "react-icons/fa";
+import { SiTypescript } from 'react-icons/si'
 
 import { getPrismicClient } from '../services/prismic'
 import Prismic from '@prismicio/client'
 import { RichText } from 'prismic-dom'
-import { type } from 'os'
 
 type Content ={
 		title: string;
@@ -21,6 +22,7 @@ type Content ={
 		titleWeb: string;
 		webContent:string;
 		webBanner: string;
+		curriculo:string;
 }
 interface ContentProps{
 	content: Content;
@@ -46,19 +48,27 @@ export default function Home({content}: ContentProps) {
 				  <section className={styles.ctaText}>
 					<h1>{content.title}</h1>
 					<span>{content.subtitle}</span>
-					{/* <a href={content.linkAction}>
+					<a href={content.curriculo} target="_blank" rel="noopener noreferrer">
 						<button>
-							COMEÇAR AGORA!
+							Download do CV
 						</button>
-					</a> */}
+					</a>
+					<a  className={styles.tecnologia}>
+						<FaCss3Alt className={styles.css} size={30} />
+						<FaHtml5 className={styles.html} size={30} />
+						<FaJs className={styles.js} size={30} />
+						<SiTypescript className={styles.ts} size={28} />
+						<FaReact className={styles.react} size={30} />
+						<FaReact className={styles.reactNative} size={32} />
+					</a>
 				  </section>
 					<img src='/images/Mizael-4.png' alt="conteudos" />
 
 			  </div>
 			  
-			  <hr className={styles.divisor}/>
+			  {/* <hr className={styles.divisor}/> */}
 
-			<div className={styles.sectionContainer} >
+			{/* <div className={styles.sectionContainer} >
 				<section>
 					<h2>{content.mobile}</h2>
          			 <span>{content.mobileContent}</span>
@@ -88,7 +98,7 @@ export default function Home({content}: ContentProps) {
          		<button>ACESSAR TURMA!</button>
         	</a>
 
-		</div>
+		</div> */}
 
 
 
@@ -115,7 +125,8 @@ export const getStaticProps: GetStaticProps = async () => {
 		linkAction,mobile,
 		mobileContent,mobileBanner,
 		titleWeb,webContent,
-		webBanner
+		webBanner,
+		curriculo
 	} = response.results[0].data
 
 	const content ={
@@ -128,6 +139,7 @@ export const getStaticProps: GetStaticProps = async () => {
 		titleWeb: RichText.asText(titleWeb),
 		webContent: RichText.asText(webContent),
 		webBanner: webBanner.url,
+		curriculo:curriculo.url
 		
 
 	}
